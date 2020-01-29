@@ -124,7 +124,7 @@ public class direct extends baseclass{
 				.click();
 		driver.findElement(By.xpath("//div[@class=\"span12 shipping-edit-form\"]//input[@name=\"shipTel\"]"))
 				.sendKeys("8186814540");
-
+// test
 		// All other Banks
 		driver.findElement(By.xpath(
 				"//div[@class=\"span12 all-other-banks\"]//select[@id=\"netBankingBank\"]//option[@ value=\"AvenuesTest\"]"))
