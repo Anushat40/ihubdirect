@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
     <classes>
-      <class name="DataDriven.change_password">
+      <class name="com.Directtest.Payment">
         <methods>
+          <include name="h"/>
+          <include name="g"/>
           <include name="afterSuite"/>
+          <include name="j"/>
+          <include name="k"/>
           <include name="endtest"/>
           <include name="suite"/>
-          <include name="tc_1"/>
           <include name="browser"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- DataDriven.change_password -->
+      </class> <!-- com.Directtest.Payment -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
